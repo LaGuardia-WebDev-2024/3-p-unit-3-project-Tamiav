@@ -1,9 +1,9 @@
 <!--
 Requirements
 [  ] Two External Links
-[  ] Table
+[yes  ] Table
 [  ] Three CSS Rules
-[  ] Three Images
+[yes  ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
@@ -14,47 +14,106 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    .
+    <style>
+      #cupcake {
+        background-image: urL("https://media.istockphoto.com/vectors/seamless-pattern-with-rainbow-colorful-falling-decorative-sprinkles-vector-id1205262503?k=6&m=1205262503&s=170667a&w=0&h=S9tx53c_9J3B1psa7FZJ0QNBwx8CeD1teAKMTCqQqlU=");
+        background-repea: no-repeats;
+        background-size: 1700px;
+      }
+       #cheese {
+        background-image: urL("https://th.bing.com/th/id/R.351271bf83ea64748bc5a8c0a09485eb?rik=nzqoQdZL0%2bvbEA&riu=http%3a%2f%2fcookingwithchrissy.files.wordpress.com%2f2012%2f02%2fbuffalo-chicken-quesadilla-2.jpg&ehk=tgqC6NJWAztPUxaFjxn0sTezjFJqs1JkI%2bl7XJAW3aE%3d&risl=&pid=ImgRaw&r=0");
+        background-repea: no-repeats;
+        background-size: 17px;
+      }
+       #cake {
+        background-image: urL("https://th.bing.com/th/id/OIP.2lWveHkNwAmrU5ttZsIiowHaLH?rs=1&pid=ImgDetMain");
+        background-repea: no-repeats;
+        background-size: 30px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>Tamia's Recipe Book</h1>
 
-<body>
+    <h2>Contents:</h2>
 
-  <h1>____'s Recipe Book</h1>
+    <ol>
+      <li><a href="#cupcake">Recipe #1</a>
+      <a href="#cheese">Recipe #2</a>
+      <a href="#cake">Recipe #3</a></li>
+    </ol>
 
-  <h2>Contents:</h2>
+   
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
 
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
+      <tbody>
+        <tr>
+          <td>Butter, Vanilla, Oil, Flour, Baking powder, Sugar, Milk, Salt</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>flour tortilla, shredded cheese, medium green onion, salsa or sauce</td>
+          <td>6</td>
+        </tr>
+      </tbody>
       <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+          <td>plain flour, 2 large eggs, 300ml milk, 1 tbsp vegetable oil</td>
+          <td>12</td>
+        </tr>
+    </table>
+ <h2 id="cupcake">Recipe #1 cupcakes</h2>
+    <p>
+      <strong>Step 1:</strong> beat eggs until fluffy and whip eggs with the
+      sugar for 7 minutes until thick and glossy <strong>Step 2:</strong> whisk
+      together flour, baking powder and salt <strong>Step 3:</strong> gradually
+      add the flour mixture into the egg mixture. minimize mixing until later
+      <strong>Step 4:</strong> melt butter and heat milk. Hot milk helps with
+      rise for the cupcakes <strong>Step 5:</strong> Mix some of previous batter
+      into hot milk to cool down the milk to prevent the eggs from cooking
+      <strong>Step 6:</strong> slowly pour milk mixture back into whipped eggs
+      over 15 seconds then mix <strong>Step 7:</strong> fill cupcake liners
+      <strong>Step 8:</strong> bake for 22 minutes until golden and toothpick
+      inserted into the center comes out clean <strong>Step 9:</strong> After
+      removing, let rest for 2 minutes <strong>Step 10:</strong> add your
+      frosting and you are done!
+    </p>
+    <h2 id="cheese">Recipe #2 Quesadilla</h2>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p>
+      
+      <p>
+      <strong>Step 1:</strong> put 1/4 cup of cheese on the top half of the tortilla <strong>Step 2:</strong> add 2 tablespoon of green onion and 1 tablespoon of salsa on the top half then fold over the tortillas and press to seal <strong>Step 3:</strong> heat oil in a skillet over medium or high heat. add quesadillas and cook until lightly bronwed on both sides and cheese is melted
+     
+    </p>
+    <h2 id="cake">Recipe #3 pancake</h2>
+     <p>
+      <strong>Step 1:</strong> 100g plain flour, 2 large eggs, 300ml milk, 1 tbsp of vegetable oil and a pinch of salt into a bowl then whisk until smooth<strong>Step 2:</strong> set for 30 minutes <strong>Step 3:</strong> set a frying pan over medium heat and wipe it with oil
+      <strong>Step 4:</strong> when hot, cook pancakes for 1 min on each side until golden <strong>Step 5:</strong> you are done
+     
+    </p>
+    </p>
+  <p>check out more: 
+        <a href="https://www.allrecipes.com/">Allrecipes</a>,
+        <a href="https://www.foodnetwork.com/recipes">foodnetwork</a>
+     <a href="https://cooking.nytimes.com/">NYtimescooking</a>
+    </p>
+  </body>
 </html>
